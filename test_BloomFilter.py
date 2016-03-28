@@ -29,8 +29,8 @@ class TestBloomFilter(unittest.TestCase):
 
         bloom_filter = BloomFilter(options.N, options.m, options.n)
 
-        bloom_filter.insert(5)
-        self.assertEqual(bloom_filter.check(5), True)
+        bloom_filter.insert(50000)
+        self.assertEqual(bloom_filter.check(50000), True)
         self.assertEqual(bloom_filter.check(6), False)
 
 if __name__ == '__main__':
