@@ -1,0 +1,15 @@
+sudo: false
+dist: trusty
+
+language: python
+
+python:
+  - 3.5
+
+install:
+  - pip install numpy
+  - pip install matplotlib
+
+script:
+  - python test_BloomFilter.py
+  - bash run_experiment.sh
