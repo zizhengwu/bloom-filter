@@ -9,7 +9,7 @@ Bloom filters
 
 # Results
 
-![](README-static/result.svg)
+![Alt text](https://cdn.rawgit.com/zizhengwu/bloom-filters/master/README-static/result.svg)
 
 Not so detailed analysis report available [here](bloom-filters.pdf).
 
